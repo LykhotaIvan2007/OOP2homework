@@ -10,7 +10,7 @@ public class PrivatePlane extends Plane {
     private static final double SEATS_TAKEN_MULTIPLICATION_NUMBER = 1.87;
     private static final double WEIGHTS_OF_LUGGAGE_MULTIPLICATION_NUMBER = 0.4;
     private int numberOfSeats;
-    private Map<String, Integer> nameSeatNumber;
+    private Map<Integer, String> nameSeatNumber;
 
     public PrivatePlane(String code, double currentFuelLevel, int numberOfSeats) {
         super(code, currentFuelLevel);
@@ -54,7 +54,7 @@ public class PrivatePlane extends Plane {
         if (this.numberOfSeats < this.nameSeatNumber.size() + 1){
             throw new RuntimeException("all seats are taken");
         }
-        this.nameSeatNumber.put(name, this.nameSeatNumber.size() + 1);
+        this.nameSeatNumber.put(this.nameSeatNumber.size() + 1, name);
     }
 
     @Override

@@ -14,8 +14,8 @@ public class CommercialPlane extends Plane {
     private static final double WEIGHTS_OF_LUGGAGE_MULTIPLICATION_NUMBER = 0.3;
     private int numberOfEconomySeats;
     private int numberOfBusinessSeats;
-    private Map<String, Integer> nameSeatNumberEconomy;
-    private Map<String, Integer> nameSeatNumberBusiness;
+    private Map<Integer, String> nameSeatNumberEconomy;
+    private Map<Integer, String> nameSeatNumberBusiness;
 
     public CommercialPlane(String code, double currentFuelLevel, int numberOfEconomySeats, int numberOfBusinessSeats) {
         super(code, currentFuelLevel);
@@ -44,34 +44,14 @@ public class CommercialPlane extends Plane {
             throw new RuntimeException("all seats are taken");
         }
         if (this.numberOfEconomySeats > this.nameSeatNumberEconomy.size() + 1){
-            this.nameSeatNumberEconomy.put(name, this.nameSeatNumberEconomy.size() + 1);
+            this.nameSeatNumberEconomy.put(this.nameSeatNumberEconomy.size() + 1, name);
         }else {
-            this.nameSeatNumberBusiness.put(name, this.nameSeatNumberBusiness.size() + 1);
+            this.nameSeatNumberBusiness.put(this.nameSeatNumberBusiness.size() + 1, name);
         }
     }
 
     @Override
     public int getNumberOfEmptySeats() {
         return this.numberOfEconomySeats - this.nameSeatNumberEconomy.size() + this.numberOfBusinessSeats - this.nameSeatNumberBusiness.size();
-    }
-
-    public void reserveEconomySeat(String name){
-        if (name == null || name.isBlank()){
-            throw new IllegalArgumentException("name can not be null or empty");
-        }
-        if (this.numberOfEconomySeats + 1 > this.nameSeatNumberEconomy.size()){
-            throw new RuntimeException("all economy seats are taken");
-        }
-        this.nameSeatNumberEconomy.put(name, this.nameSeatNumberEconomy.size() + 1);
-    }
-
-    public void reserveBusinessSeat(String name){
-        if (name == null || name.isBlank()){
-            throw new IllegalArgumentException("name can not be null or empty");
-        }
-        if (this.numberOfBusinessSeats + 1 > this.nameSeatNumberBusiness.size()){
-            throw new RuntimeException("all business seats are taken");
-        }
-        this.nameSeatNumberBusiness.put(name, this.nameSeatNumberBusiness.size() + 1);
     }
 }
