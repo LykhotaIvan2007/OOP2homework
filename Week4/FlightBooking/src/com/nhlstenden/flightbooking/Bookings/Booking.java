@@ -39,16 +39,32 @@ public class Booking {
         }
         for (Flight flight: this.flights){
             if (flight.getArrivalAirport().equals(arrivalAirport) && flight.getDepartureAirport().equals(departureAirport) &&
-            flight.getStatus() != FlightStatus.DEPARTED && this.isLuggageContainsOnlyOneCarryBaggage(luggages)){
+            flight.getStatus() == FlightStatus.AWAITING_DEPARTURE && this.isLuggageContainsOnlyOneCarryBaggage(luggages)){
+                flight.getPlane().reserveSeat(name);
+                flight.getPlane().addAllLuggage(luggages);
+            }
+        }
+    }
+
+    public void bookFlight(String name, Airport departureAirport, Airport arrivalAirport){
+        if (name == null || name.isBlank()){
+            throw new IllegalArgumentException("name can not be null or empty");
+        }
+        if (departureAirport == null){
+            throw new IllegalArgumentException("departure airport can not be null");
+        }
+        if (arrivalAirport == null){
+            throw new IllegalArgumentException("arrival airport can not be null");
+        }
+        for (Flight flight: this.flights){
+            if (flight.getArrivalAirport().equals(arrivalAirport) && flight.getDepartureAirport().equals(departureAirport) &&
+                    flight.getStatus() == FlightStatus.AWAITING_DEPARTURE){
                 flight.getPlane().reserveSeat(name);
             }
         }
     }
 
     public boolean isLuggageContainsOnlyOneCarryBaggage(List<Luggage> luggages){
-        if (luggages == null){
-            return true;
-        }
         int counter = 0;
         for (Luggage luggage: luggages){
             if (!luggage.isHold()){

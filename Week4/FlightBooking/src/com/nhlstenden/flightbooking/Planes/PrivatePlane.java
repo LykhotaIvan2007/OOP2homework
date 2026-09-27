@@ -3,6 +3,7 @@ package com.nhlstenden.flightbooking.Planes;
 import com.nhlstenden.flightbooking.Luggages.Luggage;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class PrivatePlane extends Plane {
@@ -62,7 +63,13 @@ public class PrivatePlane extends Plane {
         return this.numberOfSeats - this.nameSeatNumber.size();
     }
 
-    public void onlyPrivateMethod(){
-        System.out.println("zxc");
+    @Override
+    public void addAllLuggage(List<Luggage> luggage) {
+        for (Luggage luggage1: luggage){
+            if (luggage1.isHold()){
+                throw new RuntimeException("In private Plane You can not keep hold luggage");
+            }
+        }
+        super.addAllLuggage(luggage);
     }
 }

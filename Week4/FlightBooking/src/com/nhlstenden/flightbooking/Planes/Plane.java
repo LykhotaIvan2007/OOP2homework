@@ -50,6 +50,10 @@ public abstract class Plane {
         this.luggage.add(luggage);
     }
 
+    public void addAllLuggage(List<Luggage> luggage){
+        this.luggage.addAll(luggage);
+    }
+
     public double getWeightOfLuggage(){
         double weight = 0;
         for (Luggage luggage1: this.luggage){
