@@ -7,12 +7,12 @@ import javax.lang.model.util.ElementScanner6;
 import java.time.LocalDateTime;
 
 public class Flight {
-    public static final int JFK_AMS_DISTANCE = 5848;
-    public static final int JFK_MEX_DISTANCE = 3366;
-    public static final int JFK_LAX_DISTANCE = 3975;
-    public static final int AMS_MEX_DISTANCE = 9206;
-    public static final int AMS_LAX_DISTANCE = 8956;
-    public static final int MEX_LAX_DISTANCE = 2500;
+    private static final int JFK_AMS_DISTANCE = 5848;
+    private static final int JFK_MEX_DISTANCE = 3366;
+    private static final int JFK_LAX_DISTANCE = 3975;
+    private static final int AMS_MEX_DISTANCE = 9206;
+    private static final int AMS_LAX_DISTANCE = 8956;
+    private static final int MEX_LAX_DISTANCE = 2500;
     private Airport departureAirport;
     private Airport arrivalAirport;
     private LocalDateTime departureDateAndTime;
