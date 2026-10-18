@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b5dd5f87-4114-48ee-aba3-5764d305bd58" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Exception" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "LykhotaIvan2007"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:LykhotaIvan2007/OOP2homework.git",
+    "accountId": "d91a7483-8ccf-4b88-b567-b4916a5fcaee"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="3KruVnfOUfx9cfXZalYv8RHocdl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.AsparagusTest.executor": "Debug",
+    "JUnit.AsparagusTest.grow_AmountOfDaysLessThan0_throwsExceptions.executor": "Run",
+    "JUnit.AsparagusTest.grow_MmLessThan0_throwsExceptions.executor": "Run",
+    "JUnit.AsparagusTest.grow_lux1mm1day10_sizeWillChangeTo.executor": "Run",
+    "JUnit.AsparagusTest.grow_lux1mm1day1_sizeWillChangeTo.executor": "Debug",
+    "JUnit.AsparagusTest.grow_lux4000000mm1000000day10_sizeWillChangeTo5008.executor": "Run",
+    "JUnit.AsparagusTest.grow_lux4000000mm1000000day10_statusReadyToHarvest.executor": "Run",
+    "JUnit.AsparagusTest.grow_luxLessThan0_throwsExceptions.executor": "Run",
+    "JUnit.AsparagusTest.grow_mmLessThan14_StatusDestroyed.executor": "Run",
+    "JUnit.GardenTest.addVegetable_PutMoreVegetableThanCanExists_ThrowExceptions.executor": "Run",
+    "JUnit.GardenTest.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "/Users/ivanlykhota/Desktop/year2Uni/OOP2homework/week6/VegetableGarden/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.nhlstenden.vegetablegarden.garden" />
+      <recent name="com.nhlstenden.vegetablegarden.vegetable" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.GardenTest">
+    <configuration name="AsparagusTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VegetableGarden" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nhlstenden.vegetablegarden.vegetable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nhlstenden.vegetablegarden.vegetable" />
+      <option name="MAIN_CLASS_NAME" value="com.nhlstenden.vegetablegarden.vegetable.AsparagusTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsparagusTest.grow_lux4000000mm1000000day10_sizeWillChangeTo5008" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VegetableGarden" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nhlstenden.vegetablegarden.vegetable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nhlstenden.vegetablegarden.vegetable" />
+      <option name="MAIN_CLASS_NAME" value="com.nhlstenden.vegetablegarden.vegetable.AsparagusTest" />
+      <option name="METHOD_NAME" value="grow_lux4000000mm1000000day10_sizeWillChangeTo5008" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AsparagusTest.grow_lux4000000mm1000000day10_statusReadyToHarvest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VegetableGarden" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nhlstenden.vegetablegarden.vegetable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nhlstenden.vegetablegarden.vegetable" />
+      <option name="MAIN_CLASS_NAME" value="com.nhlstenden.vegetablegarden.vegetable.AsparagusTest" />
+      <option name="METHOD_NAME" value="grow_lux4000000mm1000000day10_statusReadyToHarvest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GardenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VegetableGarden" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nhlstenden.vegetablegarden.garden.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nhlstenden.vegetablegarden.garden" />
+      <option name="MAIN_CLASS_NAME" value="com.nhlstenden.vegetablegarden.garden.GardenTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GardenTest.addVegetable_PutMoreVegetableThanCanExists_ThrowExceptions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="VegetableGarden" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.nhlstenden.vegetablegarden.garden.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.nhlstenden.vegetablegarden.garden" />
+      <option name="MAIN_CLASS_NAME" value="com.nhlstenden.vegetablegarden.garden.GardenTest" />
+      <option name="METHOD_NAME" value="addVegetable_PutMoreVegetableThanCanExists_ThrowExceptions" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.GardenTest" />
+        <item itemvalue="JUnit.GardenTest.addVegetable_PutMoreVegetableThanCanExists_ThrowExceptions" />
+        <item itemvalue="JUnit.AsparagusTest" />
+        <item itemvalue="JUnit.AsparagusTest.grow_lux4000000mm1000000day10_statusReadyToHarvest" />
+        <item itemvalue="JUnit.AsparagusTest.grow_lux4000000mm1000000day10_sizeWillChangeTo5008" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-2fc7cc6b9a17-intellij.indexing.shared.core-IU-253.31033.145" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-IU-253.31033.145" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b5dd5f87-4114-48ee-aba3-5764d305bd58" name="Changes" comment="" />
+      <created>1792328034148</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1792328034148</updated>
+      <workItem from="1792328035360" duration="9447000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
